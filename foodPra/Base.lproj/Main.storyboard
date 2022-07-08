@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bij-VX-EFJ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="doughnut" translatesAutoresizingMaskIntoConstraints="NO" id="bqd-TF-JgJ">
-                                <rect key="frame" x="26" y="76" width="362" height="164"/>
+                                <rect key="frame" x="26" y="76" width="342" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U9N-xa-e6B">
@@ -324,8 +324,148 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
         </scene>
+        <!--Daniel Baddal View Controller-->
+        <scene sceneID="ScY-pL-EcH">
+            <objects>
+                <viewController id="Bij-VX-EFJ" customClass="DanielBaddalViewController" customModule="foodPra" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vSy-yD-IwR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daniel_baedal08" translatesAutoresizingMaskIntoConstraints="NO" id="qI8-qX-FvU">
+                                <rect key="frame" x="20" y="672" width="374" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="F4h-Qq-07A"/>
+                                    <constraint firstAttribute="width" constant="374" id="fo0-i1-c8L"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mCv-8a-q0P">
+                                <rect key="frame" x="20" y="63" width="374" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="WbQ-cv-Yv0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daniel_baedal02" translatesAutoresizingMaskIntoConstraints="NO" id="TRO-UE-MZc">
+                                <rect key="frame" x="214" y="131" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="Hx3-Kn-C2n"/>
+                                    <constraint firstAttribute="width" constant="180" id="goV-6g-EP7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daneil_baedal05" translatesAutoresizingMaskIntoConstraints="NO" id="FbM-0I-dBp">
+                                <rect key="frame" x="214" y="428" width="180" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="i2n-yz-WDP"/>
+                                    <constraint firstAttribute="height" constant="106" id="vkf-R5-bgo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daniel_baedal06" translatesAutoresizingMaskIntoConstraints="NO" id="1qa-Ez-7Ei">
+                                <rect key="frame" x="20" y="558" width="180" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="7q8-eC-xUf"/>
+                                    <constraint firstAttribute="width" constant="180" id="ZIR-JK-g8y"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daniel_baedal07" translatesAutoresizingMaskIntoConstraints="NO" id="A6X-CD-AXz">
+                                <rect key="frame" x="214" y="558" width="180" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="8Oc-DM-CNo"/>
+                                    <constraint firstAttribute="width" constant="180" id="nzb-aq-cwz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daniel_baedal04" translatesAutoresizingMaskIntoConstraints="NO" id="tV5-ae-RIh">
+                                <rect key="frame" x="20" y="428" width="180" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="54q-mM-HXT"/>
+                                    <constraint firstAttribute="width" constant="180" id="XvN-hK-9ew"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daniel_baedal03" translatesAutoresizingMaskIntoConstraints="NO" id="VAT-GY-4ER">
+                                <rect key="frame" x="20" y="319" width="374" height="101"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daniel_baedal01" translatesAutoresizingMaskIntoConstraints="NO" id="Sd0-gu-Dw3">
+                                <rect key="frame" x="20" y="131" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="WZj-jd-fS5"/>
+                                    <constraint firstAttribute="height" constant="180" id="rNG-en-Jh1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DGL-uR-FaK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VAT-GY-4ER" firstAttribute="top" secondItem="DGL-uR-FaK" secondAttribute="top" constant="275" id="1Sm-3g-i3v"/>
+                            <constraint firstItem="FbM-0I-dBp" firstAttribute="leading" secondItem="tV5-ae-RIh" secondAttribute="trailing" constant="14" id="3ki-aJ-rdX"/>
+                            <constraint firstItem="DGL-uR-FaK" firstAttribute="bottom" secondItem="qI8-qX-FvU" secondAttribute="bottom" id="4Ed-0k-Ra0"/>
+                            <constraint firstItem="DGL-uR-FaK" firstAttribute="trailing" secondItem="mCv-8a-q0P" secondAttribute="trailing" constant="20" id="4Wq-WU-RHg"/>
+                            <constraint firstItem="FbM-0I-dBp" firstAttribute="top" secondItem="mCv-8a-q0P" secondAttribute="bottom" constant="323" id="7c9-Ss-24r"/>
+                            <constraint firstItem="A6X-CD-AXz" firstAttribute="top" secondItem="FbM-0I-dBp" secondAttribute="bottom" constant="24" id="BlO-Og-N2b"/>
+                            <constraint firstItem="1qa-Ez-7Ei" firstAttribute="leading" secondItem="DGL-uR-FaK" secondAttribute="leading" constant="20" id="C0R-YN-3NX"/>
+                            <constraint firstItem="tV5-ae-RIh" firstAttribute="leading" secondItem="DGL-uR-FaK" secondAttribute="leading" constant="20" id="M8m-Xh-axs"/>
+                            <constraint firstItem="Sd0-gu-Dw3" firstAttribute="top" secondItem="mCv-8a-q0P" secondAttribute="bottom" constant="26" id="QVm-D3-TJD"/>
+                            <constraint firstItem="DGL-uR-FaK" firstAttribute="trailing" secondItem="FbM-0I-dBp" secondAttribute="trailing" constant="20" id="Qo9-6k-5lh"/>
+                            <constraint firstItem="DGL-uR-FaK" firstAttribute="trailing" secondItem="A6X-CD-AXz" secondAttribute="trailing" constant="20" id="VhZ-Eu-ETL"/>
+                            <constraint firstItem="DGL-uR-FaK" firstAttribute="trailing" secondItem="TRO-UE-MZc" secondAttribute="trailing" constant="20" id="Y9Y-zE-db8"/>
+                            <constraint firstItem="DGL-uR-FaK" firstAttribute="bottom" secondItem="VAT-GY-4ER" secondAttribute="bottom" constant="442" id="Yfy-qS-rbm"/>
+                            <constraint firstItem="mCv-8a-q0P" firstAttribute="leading" secondItem="DGL-uR-FaK" secondAttribute="leading" constant="20" id="aJe-Bp-IZB"/>
+                            <constraint firstItem="DGL-uR-FaK" firstAttribute="trailing" secondItem="qI8-qX-FvU" secondAttribute="trailing" constant="20" id="bo4-9V-G8a"/>
+                            <constraint firstItem="mCv-8a-q0P" firstAttribute="centerX" secondItem="DGL-uR-FaK" secondAttribute="centerX" id="cFJ-Xb-hMw"/>
+                            <constraint firstItem="VAT-GY-4ER" firstAttribute="leading" secondItem="DGL-uR-FaK" secondAttribute="leading" constant="20" id="csc-5m-dfC"/>
+                            <constraint firstItem="tV5-ae-RIh" firstAttribute="top" secondItem="mCv-8a-q0P" secondAttribute="bottom" constant="323" id="doF-TU-QKd"/>
+                            <constraint firstItem="TRO-UE-MZc" firstAttribute="top" secondItem="mCv-8a-q0P" secondAttribute="bottom" constant="26" id="eQf-tn-ZcV"/>
+                            <constraint firstItem="Sd0-gu-Dw3" firstAttribute="leading" secondItem="DGL-uR-FaK" secondAttribute="leading" constant="20" id="ejd-m9-sdd"/>
+                            <constraint firstItem="mCv-8a-q0P" firstAttribute="top" secondItem="DGL-uR-FaK" secondAttribute="top" constant="19" id="gPq-mE-euF"/>
+                            <constraint firstItem="qI8-qX-FvU" firstAttribute="centerX" secondItem="DGL-uR-FaK" secondAttribute="centerX" id="kb4-CX-Uek"/>
+                            <constraint firstItem="A6X-CD-AXz" firstAttribute="leading" secondItem="1qa-Ez-7Ei" secondAttribute="trailing" constant="14" id="khT-1C-VwR"/>
+                            <constraint firstItem="qI8-qX-FvU" firstAttribute="leading" secondItem="DGL-uR-FaK" secondAttribute="leading" constant="20" id="ktc-SW-Qfw"/>
+                            <constraint firstItem="1qa-Ez-7Ei" firstAttribute="top" secondItem="tV5-ae-RIh" secondAttribute="bottom" constant="24" id="ohb-8P-DKJ"/>
+                            <constraint firstItem="DGL-uR-FaK" firstAttribute="trailing" secondItem="VAT-GY-4ER" secondAttribute="trailing" constant="20" id="pIM-X0-ndd"/>
+                            <constraint firstItem="mCv-8a-q0P" firstAttribute="leading" secondItem="Sd0-gu-Dw3" secondAttribute="trailing" constant="-180" id="xpY-LJ-ihB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="baedalAdImage" destination="qI8-qX-FvU" id="gJC-0s-cHa"/>
+                        <outlet property="baedalImage01" destination="Sd0-gu-Dw3" id="M49-sk-Uol"/>
+                        <outlet property="baedalImage02" destination="TRO-UE-MZc" id="MGI-Yu-hlY"/>
+                        <outlet property="baedalImage03" destination="VAT-GY-4ER" id="sp3-LT-ZjV"/>
+                        <outlet property="baedalImage04" destination="tV5-ae-RIh" id="CAZ-4Q-Wuf"/>
+                        <outlet property="baedalImage05" destination="FbM-0I-dBp" id="ffj-Xg-7wW"/>
+                        <outlet property="baedalImage06" destination="1qa-Ez-7Ei" id="RRT-ey-eRL"/>
+                        <outlet property="baedalImage07" destination="A6X-CD-AXz" id="oF4-u6-ZeN"/>
+                        <outlet property="baedalTextField" destination="mCv-8a-q0P" id="DGJ-cx-hKq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qvW-Gr-kq7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.91304347826099" y="135.9375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mvy-x1-BuO">
+            <objects>
+                <viewController id="yNU-Qv-3wt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XjA-gw-JFI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="cX4-ST-vGt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCN-Cf-zjg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1681" y="136"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="daneil_baedal05" width="292" height="190"/>
+        <image name="daniel_baedal01" width="504" height="504"/>
+        <image name="daniel_baedal02" width="506" height="519"/>
+        <image name="daniel_baedal03" width="1078" height="216"/>
+        <image name="daniel_baedal04" width="316" height="183"/>
+        <image name="daniel_baedal06" width="256" height="202"/>
+        <image name="daniel_baedal07" width="340" height="207"/>
+        <image name="daniel_baedal08" width="922" height="350"/>
         <image name="doughnut" width="200" height="251"/>
         <image name="mono_baedal01" width="112" height="62"/>
         <image name="mono_baedal02" width="69" height="94"/>
