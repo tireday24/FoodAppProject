@@ -707,33 +707,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Z5s-BX-hR0">
-                                <rect key="frame" x="0.0" y="88" width="414" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Z5s-BX-hR0">
+                                <rect key="frame" x="0.0" y="105" width="414" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="eeA-AT-AhB"/>
+                                    <constraint firstAttribute="height" constant="31" id="zMU-wZ-gxQ"/>
+                                </constraints>
                                 <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
+                                    <segment title="받은 선물함"/>
+                                    <segment title="선물코드 등록"/>
                                 </segments>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjr-Gb-xtJ">
-                                <rect key="frame" x="7" y="133" width="194" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjr-Gb-xtJ">
+                                <rect key="frame" x="7" y="150" width="194" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="194" id="aiT-lb-1KM"/>
+                                    <constraint firstAttribute="height" constant="31" id="lNm-kg-Fn3"/>
+                                </constraints>
+                                <color key="tintColor" red="0.075336097909999997" green="0.075209022520000002" blue="0.077428713110000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="gift.fill" catalog="system" title="선물하러 가기"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPJ-lD-kMW">
-                                <rect key="frame" x="209" y="133" width="201" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPJ-lD-kMW">
+                                <rect key="frame" x="209" y="150" width="201" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="HbS-WG-5lq"/>
+                                    <constraint firstAttribute="height" constant="31" id="I8Y-wg-MMI"/>
+                                </constraints>
+                                <color key="tintColor" red="0.075336097909999997" green="0.075209022520000002" blue="0.077428713110000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="ticket" catalog="system" title="선물코드 등록"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IZL-jz-x44">
-                                <rect key="frame" x="20" y="195" width="374" height="213"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="텅 글씨버전" translatesAutoresizingMaskIntoConstraints="NO" id="IZL-jz-x44">
+                                <rect key="frame" x="32.5" y="281" width="349" height="339"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="349" id="CbK-A4-1vf"/>
+                                    <constraint firstAttribute="height" constant="339" id="Lm4-OS-vL7"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xhw-D6-Fjc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z5s-BX-hR0" firstAttribute="leading" secondItem="Xhw-D6-Fjc" secondAttribute="leading" id="AmC-Dt-Qv1"/>
+                            <constraint firstItem="IZL-jz-x44" firstAttribute="top" secondItem="Jjr-Gb-xtJ" secondAttribute="bottom" constant="100" id="B0K-nw-MHR"/>
+                            <constraint firstItem="IZL-jz-x44" firstAttribute="centerX" secondItem="Xhw-D6-Fjc" secondAttribute="centerX" id="HKg-KZ-ypa"/>
+                            <constraint firstItem="Jjr-Gb-xtJ" firstAttribute="top" secondItem="Z5s-BX-hR0" secondAttribute="bottom" constant="14" id="Mye-qs-CDa"/>
+                            <constraint firstItem="IZL-jz-x44" firstAttribute="centerY" secondItem="Xhw-D6-Fjc" secondAttribute="centerY" id="RkX-Nu-sE4"/>
+                            <constraint firstItem="wPJ-lD-kMW" firstAttribute="top" secondItem="Z5s-BX-hR0" secondAttribute="bottom" constant="14" id="UQ1-0h-onf"/>
+                            <constraint firstItem="wPJ-lD-kMW" firstAttribute="leading" secondItem="Xhw-D6-Fjc" secondAttribute="leading" constant="209" id="cpP-8m-2BH"/>
+                            <constraint firstItem="Xhw-D6-Fjc" firstAttribute="trailing" secondItem="Jjr-Gb-xtJ" secondAttribute="trailing" constant="213" id="hzM-zj-Kji"/>
+                            <constraint firstItem="wPJ-lD-kMW" firstAttribute="leading" secondItem="Jjr-Gb-xtJ" secondAttribute="trailing" constant="8" symbolic="YES" id="lX2-5J-pqn"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Gift Box" id="7vO-el-hQo"/>
                 </viewController>
@@ -861,6 +886,7 @@
         <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
         <image name="doughnut" width="200" height="251"/>
         <image name="gift" catalog="system" width="128" height="124"/>
+        <image name="gift.fill" catalog="system" width="128" height="124"/>
         <image name="heart" catalog="system" width="128" height="109"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="mono_baedal01" width="112" height="62"/>
